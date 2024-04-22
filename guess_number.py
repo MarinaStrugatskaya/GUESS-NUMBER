@@ -9,10 +9,10 @@ while True:
     if guess < number:
         print('Your number is less than hidden! Try again!')
 
-     if guess > number:
+    elif guess > number:
         print('Your number is bigger than hidden! Try again!')
 
-     if guess == number:
+    elif guess == number:
         print('Well done')
         break
 
